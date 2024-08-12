@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <div > 
-      {/* <FlowerAnimation/>
-      // <Timer /> */}
+      
+      {/* <Timer /> */}
        
-<div>
+
         {/* <nav>
           <ul>
             <li>
@@ -31,10 +31,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/second" element={<Parking />} />
         </Routes>
-      </div>
         
-      </div>
       
+      </div>
     </Router>
   )
 }

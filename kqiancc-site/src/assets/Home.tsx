@@ -8,7 +8,8 @@ const HomePage: React.FC = () => {
        <h2>a UVA Student majoring in CS and minoring in English.</h2>
       <p>I love bridging the gap between creative storytelling and 
         website building-- finding the perfect mixture that utilizes 
-        both the arts and the sciences. </p>
+        both the arts and the sciences. I'm in my final year of college,
+        and I can't wait to graduate. </p>
         <p> If I've peaked your interest, here is my 
         
         <a href={Resume} target="_blank" rel="noopener noreferrer"> resume</a>! 
