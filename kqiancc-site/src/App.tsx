@@ -1,10 +1,8 @@
-// import { useState } from 'react'
-// import tigerLogo from './assets/tiger.jpeg'
-// import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './assets/Home.tsx';
 import Timer from './components/Timer.tsx';
 import FlowerAnimation from './components/FlowerAnimation.tsx';
-import ResumeButton from './components/ResumeButton.tsx';
-
+import Parking from './assets/parkingbuster.tsx';
 
 import './App.css'
 
@@ -12,20 +10,32 @@ function App() {
 
   
   return (
-    <>
+    <Router>
       <div > 
-      <FlowerAnimation/>
-      <Timer />
-      <h1>Hi! I'm Katherine Chacon Cai, </h1>
-      <h2>a UVA Student majoring in CS and minoring in English.</h2>
-      <h3>WRITE A PARAGRAPH ABOUT MEEEEEE</h3>
-      
-      <ResumeButton />
+      {/* <FlowerAnimation/>
+      // <Timer /> */}
+       
+<div>
+        {/* <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/second">Second Page</Link>
+            </li>
+          </ul>
+        </nav> */}
 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/second" element={<Parking />} />
+        </Routes>
+      </div>
         
       </div>
       
-    </>
+    </Router>
   )
 }
 
