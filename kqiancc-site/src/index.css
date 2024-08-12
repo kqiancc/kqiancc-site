@@ -70,15 +70,18 @@ button:focus-visible {
 /* Apply a font to the entire site */
 body {
 	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1.5em;
 }
 
 /* Apply specific fonts to different elements */
 h1 {
 	font-family: 'Ubuntu Mono', monospace;
+	font-size: 3em;
 }
 
 p {
 	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1.25em;
 }
 
 /* You can also set fonts for classes */
