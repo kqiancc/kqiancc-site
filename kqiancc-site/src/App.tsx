@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './assets/Home.tsx';
-import Timer from './components/Timer.tsx';
-import FlowerAnimation from './components/FlowerAnimation.tsx';
+
 import Parking from './assets/parkingbuster.tsx';
 
 import './App.css'

@@ -5,12 +5,12 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <h1>Hi, I'm Katherine Chacon Cai! </h1>
-       <h2>I'm a UVA Student majoring in CS and minoring in English.</h2>
+       <h2>I'm a UVA Student majoring in Computer Science and minoring in English.</h2>
       <p>I love bridging the gap between creative storytelling and 
-        website building-- finding the perfect mixture that utilizes 
+        website building— finding the perfect blend that utilizes 
         both the arts and the sciences. I'm in my final year of college,
         and I can't wait to graduate. </p>
-        <p> If I've peaked your interest, here is my 
+        <p> If I've piqued your interest, here is my 
         
         <a href={Resume} target="_blank" rel="noopener noreferrer"> resume</a>! 
 
