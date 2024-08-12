@@ -3,11 +3,14 @@
 // import React from 'react';
 import Timer from './components/Timer.tsx';
 import FlowerAnimation from './components/FlowerAnimation.tsx';
+import ResumeButton from './components/ResumeButton.tsx';
+
 
 import './App.css'
 
 function App() {
 
+  
   return (
     <>
       <div > 
@@ -17,9 +20,7 @@ function App() {
       <h2>a UVA Student majoring in CS and minoring in English.</h2>
       <h3>WRITE A PARAGRAPH ABOUT MEEEEEE</h3>
       
-        <button>
-          resume
-        </button>
+      <ResumeButton />
 
         
       </div>
