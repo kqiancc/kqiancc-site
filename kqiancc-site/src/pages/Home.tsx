@@ -3,7 +3,7 @@ import Resume from '../components/resume.pdf';
 
 const HomePage: React.FC = () => {
   return (
-    <div className='flex items-center justify-center h-screen bg-blue-200'>
+    <div className='flex items-center justify-center h-screen font-mono bg-blue-200'>
           <div className="w-full max-w-screen-lg px-4 mx-auto">
             <h1 className="py-6 text-6xl text-purple-500">Hi, I'm Katherine Chacon Cai!</h1>
             <p className="text-4xl text-white">
@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
               
               <a href={Resume} target="_blank" rel="noopener noreferrer" className ="text-blue-600"> resume</a>! 
 
-              Feel free to send me an email to
+              Feel free to send me an email at
               
               <a href="mailto:kqiancc@gmail.com" className ="text-blue-600"> kqiancc@gmail.com</a>, 
               
