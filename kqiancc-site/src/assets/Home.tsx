@@ -4,8 +4,8 @@ import Resume from '../components/resume.pdf';
 const HomePage: React.FC = () => {
   return (
     <div>
-      <h1>Hi! I'm Katherine Chacon Cai, </h1>
-       <h2>a UVA Student majoring in CS and minoring in English.</h2>
+      <h1>Hi, I'm Katherine Chacon Cai! </h1>
+       <h2>I'm a UVA Student majoring in CS and minoring in English.</h2>
       <p>I love bridging the gap between creative storytelling and 
         website building-- finding the perfect mixture that utilizes 
         both the arts and the sciences. I'm in my final year of college,
