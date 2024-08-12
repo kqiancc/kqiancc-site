@@ -1,5 +1,6 @@
 import React from 'react';
 import './FlowerAnimation.css'; // Create a separate CSS file for this component
+import Flower from './pink-flower.png';
 
 const FlowerAnimation: React.FC = () => {
   const createFlowers = () => {
@@ -12,7 +13,7 @@ const FlowerAnimation: React.FC = () => {
       flowers.push(
         <img
           key={i}
-          src="/path/to/your-flower.png"
+          src={Flower}
           className="flower"
           style={{
             width: `${size}px`,
