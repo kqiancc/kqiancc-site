@@ -7,9 +7,9 @@ const HomePage: React.FC = () => {
           <div className="w-full max-w-screen-lg px-4 mx-auto">
             <h1 className="py-6 text-6xl text-purple-500">Hi, I'm Katherine Chacon Cai!</h1>
             <p className="text-4xl text-white">
-            I'm a UVA Student majoring in Computer Science and minoring in English.
+            I'm a UVA student majoring in Computer Science and minoring in English.
             </p>
-            <p className='items-center py-6 text-2xl text-white '>I love turning creative ideas into real and applicable websites— 
+            <p className='items-center py-6 text-2xl text-white '>I love turning creative ideas into real and applicable websites — 
               finding the perfect blend that utilizes both the arts and the sciences. I'm in my final year of college,
               and I can't wait to graduate. </p>
               <p className='text-2xl text-white'> If I've piqued your interest, here is my 
