@@ -5,14 +5,14 @@ const HomePage: React.FC = () => {
   return (
     <div className='flex items-center justify-center h-screen font-mono bg-blue-200'>
           <div className="w-full max-w-screen-lg px-4 mx-auto">
-            <h1 className="py-6 text-6xl text-purple-500">Hi, I'm Katherine Chacon Cai!</h1>
-            <p className="text-4xl text-white">
+            <h1 className="py-6 text-4xl text-purple-500 sm:text-5xl md:text-6xl">Hi, I'm Katherine Chacon Cai!</h1>
+            <p className="text-2xl text-white sm:text-3xl md:text-4xl">
             I'm a UVA student majoring in Computer Science and minoring in English.
             </p>
-            <p className='items-center py-6 text-2xl text-white '>I love turning creative ideas into real and applicable websites — 
+            <p className='items-center py-6 text-xl text-white sm:text-2xl md:text-3xl'>I love turning creative ideas into real and applicable websites — 
               finding the perfect blend that utilizes both the arts and the sciences. I'm in my final year of college,
               and I can't wait to graduate. </p>
-              <p className='text-2xl text-white'> If I've piqued your interest, here is my 
+              <p className='text-xl text-white sm:text-2xl md:text-3xl'> If I've piqued your interest, here is my 
               
               <a href={Resume} target="_blank" rel="noopener noreferrer" className ="text-blue-600"> resume</a>! 
 
