@@ -11,8 +11,7 @@ const HomePage: React.FC = () => {
             I'm a UVA student majoring in Computer Science and minoring in English.
             </p>
             <p className='items-center py-6 text-xl text-white sm:text-2xl md:text-3xl'>I love turning creative ideas into real and applicable websites — 
-              finding the perfect blend that utilizes both the arts and the sciences. I'm in my final year of college,
-              and I can't wait to graduate. </p>
+              finding the perfect blend that utilizes both the arts and the sciences. </p>
               <p className='text-xl text-white sm:text-2xl md:text-3xl'> If I've piqued your interest, here is my 
               
               <a href={Resume} target="_blank" rel="noopener noreferrer" className ="text-blue-600 hover:font-bold"> resume</a>! 
